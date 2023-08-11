@@ -477,7 +477,7 @@ a {
 }
 
 .c-nav-main {
-  z-index: 9999;
+  z-index: 10;
   position: fixed;
   top: 0%;
   bottom: auto;
@@ -5296,7 +5296,7 @@ a {
 }
 
 .section-5 {
-  z-index: 1000;
+  z-index: 9;
   min-height: 100vh;
   min-width: 100vw;
   background-color: #000;
