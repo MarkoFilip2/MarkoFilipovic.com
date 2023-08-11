@@ -309,6 +309,7 @@ a {
   color: #fff;
   background-color: rgba(0, 0, 0, 0);
   font-family: "Sharp Grotesk Book 24", sans-serif;
+  display: none;
 }
 
 .c-nav-logo {
@@ -5199,6 +5200,11 @@ a {
   display: block;
 }
 
+.image-6 {
+  max-width: 20%;
+  margin-left: -20px;
+}
+
 @media screen and (min-width: 1280px) {
   .c-nav-link {
     font-size: 2.4vw;
@@ -5394,6 +5400,7 @@ a {
 
   .quick-stack {
     max-width: 90vw;
+    margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
   }
@@ -6793,6 +6800,7 @@ a {
     margin-top: -43px;
     margin-bottom: -18px;
     padding-top: 0;
+    display: block;
   }
 
   .text-size-medium-3 {
@@ -7297,7 +7305,7 @@ a {
   }
 
   .text-size-medium-3-copy {
-    margin-top: -11px;
+    margin-top: 0;
     font-size: .9rem;
   }
 
@@ -7662,6 +7670,12 @@ a {
   .container-4-copy {
     display: block;
   }
+
+  .image-6 {
+    max-width: 31%;
+    margin-left: -20px;
+    padding-left: 0;
+  }
 }
 
 #w-node-_5716d2c6-b438-885a-d512-73abf4ede298-07402841 {
@@ -7738,6 +7752,11 @@ a {
 @media screen and (max-width: 991px) {
   #w-node-_67bc0b48-1edd-09d9-1cc7-c27a271d4fd5-07402841 {
     grid-area: 2 / 1 / 3 / 3;
+  }
+
+  #w-node-_1522cfee-ef71-72b9-7e50-10601ec5741b-07402841 {
+    grid-template-rows: auto;
+    grid-template-columns: 1.5fr 1fr;
   }
 
   #w-node-e0764bdf-a3bf-23dd-84a8-547d39377141-07402841 {
